@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+````markdown
+🔗 QuickURL - Modern URL Shortener
 
-First, run the development server:
+QuickURL is a fast and minimal URL shortener web app built using Next.js (App Router), MongoDB, and Tailwind CSS. It allows users to create custom short links that redirect to original URLs — perfect for sharing clean, trackable links.
+
+
+
+ 🚀 Features
+
+- 🌐 Custom Short URLs (e.g., `quickurl.com/myalias`)
+- 🧠 Built with Next.js App Router
+- 🗃️ Stores links in MongoDB
+- 🎨 Styled with Tailwind CSS
+- 🔁 Server-side redirection via dynamic route
+- 🔗 `/github` route redirects to your GitHub profile
+
+
+ 🛠️ Tech Stack
+
+- Next.js 14+ (App Router)
+- MongoDB Atlas / local MongoDB
+- Tailwind CSS
+- Lucide Icons
+- Environment Variables via `.env.local`
+
+
+
+ ⚙️ Setup & Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/prateek-singh12/QuickURL.git
+cd QuickURL
+````
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Configure environment variables:
+
+Create a `.env.local` file:
+
+```env
+MONGODB_URI=your_mongo_connection_string
+NEXT_PUBLIC_HOST=http://localhost:3000
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+ 📬 Contact
 
-To learn more about Next.js, take a look at the following resources:
+Built with ❤️ by Prateek Singh
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 📧 [prateeksinghpspk@gmail.com](mailto:prateeksinghpspk@gmail.com)
+* 🌐 [https://github.com/prateek-singh12](https://github.com/prateek-singh12)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+ 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
